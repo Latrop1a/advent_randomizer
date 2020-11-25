@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+html {
+  box-sizing: content-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  background-color: crimson;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%230d0b11' fill-opacity='0.07'%3E%3Cpath fill-rule='evenodd' d='M11 0l5 20H6l5-20zm42 31a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM0 72h40v4H0v-4zm0-8h31v4H0v-4zm20-16h20v4H20v-4zM0 56h40v4H0v-4zm63-25a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM53 41a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-30 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-28-8a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zM56 5a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zm-3 46a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM21 0l5 20H16l5-20zm43 64v-4h-4v4h-4v4h4v4h4v-4h4v-4h-4zM36 13h4v4h-4v-4zm4 4h4v4h-4v-4zm-4 4h4v4h-4v-4zm8-8h4v4h-4v-4z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+h1 {
+  text-align: center;
+  padding-top: 0em;
+  color: rgb(45, 47, 167);
+  border-radius: 50px;
+  height: 100px;
+  font-size: 2.8rem;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 3rem;
+  letter-spacing: 5px;
+  letter-spacing: 0.5rem;
+}
+
+.days-container {
+  text-align: center;
+  background: rgba(163, 57, 57, 0.5);
+  border-radius: 100px;
+  margin: auto;
+  align-items: center;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 3em;
+  max-width: 550px;
+}
+
+ul {
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.days {
+  font-weight: 600;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -0.3rem;
+}
+
+.fa-gift {
+  font-size: 4.8rem;
+  color: rgb(44, 41, 41);
+}
+
+.fa-gratipay {
+  font-size: 4.8rem;
+  color: rgba(68, 57, 57, 0.842);
+}
+
+.message-container {
+  text-align: center;
+  margin: 5px 17%;
+  font-size: 2.2rem;
+  color: rgb(94, 7, 102);
+}
+
+#btn-roll {
+  margin-top: 10px;
+}
+
+#btn-roll:hover {
+  outline-color: chartreuse;
+}
+
+.glow {
+  box-shadow: 0px 10px 15px 1px #0ff;
+}
