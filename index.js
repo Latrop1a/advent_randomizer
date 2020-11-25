@@ -1,6 +1,7 @@
 //advent randomizer
 
 myStorage = window.localStorage;
+window.localStorage.removeItem("stuff");
 
 const initData = () => {
   const data = {
@@ -34,13 +35,13 @@ const initData = () => {
   localStorage.setItem("stuff", JSON.stringify(data));
 };
 
-//!this puts initial dataset into local storage
+//!this puts initial dataset into local storage if no data is found
 const checkData = () => {
   if (!window.localStorage.getItem("stuff")) {
     initData();
   }
 };
-//initData();
+checkData();
 
 const data = JSON.parse(window.localStorage.getItem("stuff"));
 
