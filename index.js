@@ -35,6 +35,11 @@ const initData = () => {
 };
 
 //!this puts initial dataset into local storage
+const checkData = () => {
+  if (!window.localStorage.getItem("stuff")) {
+    initData();
+  }
+};
 //initData();
 
 const data = JSON.parse(window.localStorage.getItem("stuff"));
